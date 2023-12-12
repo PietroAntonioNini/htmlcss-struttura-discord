@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Inizio Header */
+
+header {
+    background-color: #ADD8E6;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 700px;
+    margin: auto;
+    padding: 16px;
+
+}
+
+.container-header #logo, .container-header #login {
+    
+    width: 120px;
+
+    padding: 5px;
+
+    border: 0.5px dashed black;
+    background-color: #DAA520;
+}
+
+.container-header #login {
+    display: flex;
+    justify-content: end;
+}
+
+.container-header #link {
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+
+    padding: 5px;
+
+    border: 0.5px dashed black;
+    background-color: #DAA520;
+}
+
+/* Fine Header */
