@@ -100,3 +100,22 @@ main section div .element {
     border: 0.5px dashed black;
     background-color: #FFC0CB;
 }
+
+main .gray {
+    background-color: #D3D3D3;
+}
+
+main .gray div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main .gray #block-green {
+    height: 500px;
+    /* Test */
+
+    border: 0.5px dashed black;
+    background-color: #228B22;
+}
+
+/* Fine Main */
