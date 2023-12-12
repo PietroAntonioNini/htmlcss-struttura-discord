@@ -119,3 +119,44 @@ main .gray #block-green {
 }
 
 /* Fine Main */
+
+/* Inizio Footer */
+
+footer section {
+
+    padding: 5px 0 20px 0;
+
+    background-color: #23272A;
+}
+
+footer section .container-footer {
+    height: 300px;
+    /* test */
+
+    display: flex;
+
+    max-width: 700px;
+    margin: auto;
+}
+
+footer section .container-footer #main-link {
+
+    width: 200px;
+
+    border: 0.5px dashed black;
+    background-color: #F08080;
+}
+
+footer section .container-footer #various-link {
+    
+    display: flex;
+    flex-grow: 1;
+
+    border: 0.5px dashed black;
+    background-color: #20B2AA;
+}
+
+footer section .container-footer #various-link div {
+    
+    height: 300px
+}
